@@ -1,3 +1,5 @@
+*.xcarchive filter=lfs diff=lfs merge=lfs -text
+*.ipa filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.js filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
@@ -41,7 +43,6 @@
 *.mobileprovision filter=lfs diff=lfs merge=lfs -text
 *.jsbundle filter=lfs diff=lfs merge=lfs -text
 /Recify.xcarchive/dSYMs/Recify.app.dSYM/Contents/Resources/DWARF/Recify filter=lfs diff=lfs merge=lfs -text
-*.ipa filter=lfs diff=lfs merge=lfs -text
 /temp_ipa/Payload/Recify.app/Frameworks/hermes.framework/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
 /temp_ipa/Payload/Recify.app/Frameworks/hermes.framework/hermes filter=lfs diff=lfs merge=lfs -text
 /temp_ipa/Payload/Recify.app/PkgInfo filter=lfs diff=lfs merge=lfs -text
